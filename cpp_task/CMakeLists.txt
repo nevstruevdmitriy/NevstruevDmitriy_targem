@@ -19,7 +19,7 @@ add_library(MyString ${CMAKE_CURRENT_SOURCE_DIR}/sources/MyString.cpp)
 add_executable(demo ${CMAKE_CURRENT_SOURCE_DIR}/examples/demo.cpp)
 target_link_libraries(demo MyString)
 
-target_compile_options(MyString PRIVATE -Wall -Wextra -pedantic -Werror -std=c++17)
+target_compile_options(MyString PRIVATE -Wall -Wextra -pedantic -Werror -std=c++11)
 
 enable_testing()
 add_executable(check ${CMAKE_CURRENT_SOURCE_DIR}/tests/test.cpp)

@@ -1,0 +1,7 @@
+[submodule "serversite_task/thirdparty/curl"]
+	path = serversite_task/thirdparty/curl
+	url = https://github.com/curl/curl
+[submodule "serversite_task/thirdparty/json"]
+	path = serversite_task/thirdparty/json
+	url = https://github.com/nlohmann/json
+

@@ -1,0 +1,15 @@
+language: cpp
+os: 
+- linux
+
+script:
+- cmake -Hserversite_task/. -Bserversite_task/_build/
+- cmake --build serversite_task/_build
+- serversite_task/_build/app
+
+addons:
+  apt:
+   packages:
+   - cmake
+   - cmake-data
+

@@ -106,7 +106,7 @@ MyString operator+( const MyString& leftString, const MyString& rightString )
 }
 
 //
-char MyString::At(size_t pos) const 
+char MyString::At( size_t pos ) const 
 {
 	if( pos >= m_size )
 	{
